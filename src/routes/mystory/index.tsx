@@ -10,8 +10,8 @@ function RouteComponent() {
       <p className='text-3xl font-bold text-primary font-h'>My Story</p>
       <p className='text-sm text-primary -top-12'>Yulia Jeon</p>
     </div>
-    <img src="/images/MyStory2.png" alt="My Story" className="w-full h-full object-cover" />
-    <div className='text-sm text-gray-500 max-w-[800px] mx-auto flex flex-col gap-4 px-6'>
+    <img src="/images/MyStory2.png" alt="My Story" className="w-full h-full object-cover max-w-[1600px] mx-auto" />
+    <div className='text-lg text-gray-700 max-w-[800px] mx-auto flex flex-col gap-4 p-8  rounded-2xl bg-amber-50/50 border border-gray-100'>
       <p>
         I grew up as a happy child, deeply loved by my grandparents, who showed their affection in the most caring way they knew — with food. It was a beautiful time of warmth and comfort, but as a result, I became a heavy child who didn't enjoy movement and always ran last in P.E. classes.
       </p>
@@ -80,11 +80,16 @@ function RouteComponent() {
         Through this process, I became a certified Personal Trainer and Nutritionist, and built the knowledge to craft programs that supported not just aesthetics, but sustainable well-being.
       </p>
     </div>
-    <img src="/images/MyStory1.png" alt="My Story" className="w-full h-full object-cover" />
+    
+    <video 
+      src="/images/KakaoTalk_20251028_211026053.mp4" 
+      className="w-full h-full max-w-[800px] mx-auto object-cover"
+      controls
+    />
     <div className="flex flex-col relative justify-center items-center">
       <p className='text-3xl font-bold text-primary font-h'>Why I Do This</p>
     </div>
-    <div className='text-sm text-gray-500 max-w-[800px] mx-auto flex flex-col gap-4 px-6'>
+    <div className='text-lg text-gray-700 max-w-[800px] mx-auto flex flex-col gap-4 p-8  rounded-2xl bg-amber-50/50 border border-gray-100'>
       <p>
         I've lived through the struggle — from emotional eating and burnout to physical exhaustion and disconnection from my body. And I've also lived the transformation.
       </p>

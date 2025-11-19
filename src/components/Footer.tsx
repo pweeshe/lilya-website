@@ -13,7 +13,7 @@ const Footer = () => {
             <img 
               src="/images/logo-vertical.png" 
               alt="Yulia Jeon Logo" 
-              className="w-42 h-42 mb-4"
+              className="w-64 h-64 mb-4"
             />
           </div>
 

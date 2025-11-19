@@ -27,7 +27,7 @@ function App() {
             </div>
             <div className="max-tablet:overflow-hidden max-tablet:h-full">
               <img
-                src="/images/hero.png"
+                src="/images/KakaoTalk_20250925_154901708_06 1.png"
                 alt="Gallery image"
                 className="w-full h-auto max-tablet:h-full max-tablet:object-cover max-tablet:object-center"
               />

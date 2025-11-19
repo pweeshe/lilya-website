@@ -20,7 +20,7 @@ const Header = () => {
         <>
             <div className="w-full flex justify-center fixed top-0 left-0 right-0 z-50">
                 <div className={`w-[820px] max-mobile:w-full max-mobile:rounded-none rounded-full px-12 max-mobile:px-8 flex flex-row justify-between items-center h-16 transition-all duration-300 ${isScrolled ? "bg-white/90 backdrop-blur-md mt-2" : "mt-0"} max-mobile:mt-0`}>
-                    <img src="/images/logo.png" alt="Logo" className="h-8 cursor-pointer" onClick={() => navigate({ to: '/' })} />
+                    <img src="/images/logo.png" alt="Logo" className="h-12 cursor-pointer" onClick={() => navigate({ to: '/' })} />
 
                     {/* Desktop menu */}
                     <div className="flex flex-row gap-6 max-mobile:hidden items-center">
