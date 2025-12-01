@@ -81,11 +81,15 @@ function RouteComponent() {
       </p>
     </div>
     
-    <video 
-      src="/images/KakaoTalk_20251028_211026053.mp4" 
-      className="w-full h-full max-w-[800px] mx-auto object-cover"
-      controls
-    />
+    <div className="w-full max-w-[800px] mx-auto aspect-video">
+      <iframe
+        src="https://www.youtube.com/embed/ukG9xtRFLB8"
+        title="YouTube video player"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowFullScreen
+        className="w-full h-full"
+      />
+    </div>
     <div className="flex flex-col relative justify-center items-center">
       <p className='text-3xl font-bold text-primary font-h'>Why I Do This</p>
     </div>
